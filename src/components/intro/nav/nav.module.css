@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+}
+
+.link {
+    border: 5px solid rgb(105, 131, 151);
+    margin: 0.5em 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    
+}
+
+.linkText {
+    text-decoration: none;
+    color: black;
+}
+
+.linkText:hover {
+    color: rgb(105, 131, 151);
+    
+}
+
+.link:hover {
+    transform: scale(1.1);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+
+.active {
+    color: rgb(105, 131, 151);
+    text-decoration: underline;
+}
+

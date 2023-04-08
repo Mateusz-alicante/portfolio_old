@@ -1,0 +1,26 @@
+.container {
+    font-size: large;
+}
+
+.content {
+    display: flex;
+}
+
+.content p {
+    margin-right: 5%;
+}
+
+.text {
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.image {
+    border-radius: 1em;
+}

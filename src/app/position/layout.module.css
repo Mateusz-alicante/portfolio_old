@@ -1,0 +1,32 @@
+.outerContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkContainer {
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.pageLink{
+    padding-bottom: 1em;
+}
+
+.linkIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    text-decoration: underline;
+    color: rgb(105, 131, 151);
+}
+
+.inactive {
+    text-decoration: none;
+    color: black;
+}
