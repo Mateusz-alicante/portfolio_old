@@ -11,7 +11,7 @@ export default function Nav() {
     return (
         <div className={styles.container}>
             {Object.entries(pages).map(([name, link]) => 
-                        <Link href={link} className={styles.linkText}><div className={styles.link}><div className={
+                        <Link key={link} href={link} className={styles.linkText}><div className={styles.link}><div className={
                             link == '/' ? (pathname == link ? styles.active : "") : (pathname.includes(link) ? styles.active : "")
                         }>{name}</div></div></Link>
             )}

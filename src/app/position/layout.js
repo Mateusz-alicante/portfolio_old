@@ -25,12 +25,13 @@ export default function Nav({ children }) {
             <Link
               href={link}
               className={pathname == link ? styles.active : styles.inactive}
+              key={link}
             >
               <div className={styles.linkContainer}>
                 <div className={styles.linkIcon}>
                   <FontAwesomeIcon size="2x" icon={icon} />{" "}
                 </div>
-                <h4>{name}</h4>
+                <h4 className={styles.pageLink}>{name}</h4>
               </div>
             </Link>
           ))}
