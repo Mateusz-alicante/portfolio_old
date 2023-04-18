@@ -42,7 +42,7 @@ export default function Who() {
 </p>
 <h3>Acknowladgemnts:</h3>
 <p>Team members</p>
-<p>Amin mobedi,
+<p>Amin Mobedi,
 Binying Fang,
 Rachel Yang,
 Emma Wang
