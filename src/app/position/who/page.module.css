@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+}
+
+.textContainer {
+    font-size: medium;
+}
+
+.textContainer {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.image {
+    border-radius: 1em;
+    float: right;
+    margin-left:  2em;
+}

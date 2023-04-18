@@ -20,9 +20,10 @@ export default function Nav({ children }) {
     const pathname = usePathname()
     return (
       <div className={styles.outerContainer}>
-        <div>
+        <div className={styles.navContainer}>
           {Object.entries(pages).map(([name, [link, icon]]) => (
             <Link
+            scroll={false}
               href={link}
               className={pathname == link ? styles.active : styles.inactive}
               key={link}

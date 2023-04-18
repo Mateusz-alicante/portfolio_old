@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+}
+
+.textContainer {
+    font-size: medium;
+}
+
+.textContainer {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.image {
+    border-radius: 1em;
+}
+
+.imageContainer {
+    float: right;
+    margin-left:  2em;
+}
+
+.imageContainer2 {
+    float: left;
+    margin-right:  2em;
+}
+
+.imageInnerContainer{
+    
+    width: -webkit-min-content;
+     width: -moz-min-content;
+    width: min-content;
+}
+
+.imageCaptionContainer {
+    width: 100%;
+}
+.imageCaption {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: small;
+}

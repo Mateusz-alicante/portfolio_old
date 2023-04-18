@@ -9,12 +9,31 @@ const pages = {"Home": '/', "About me": '/position', "Skills": "/skills", "Exper
 export default function Nav() {
     const pathname = usePathname()
     return (
-        <div className={styles.container}>
-            {Object.entries(pages).map(([name, link]) => 
-                        <Link key={link} href={link} className={styles.linkText}><div className={styles.link}><div className={
-                            link == '/' ? (pathname == link ? styles.active : "") : (pathname.includes(link) ? styles.active : "")
-                        }>{name}</div></div></Link>
-            )}
-        </div>
-    )
+      <div className={styles.container}>
+        {Object.entries(pages).map(([name, link]) => (
+          <Link
+            scroll={false}
+            key={link}
+            href={link}
+            className={styles.linkText}
+          >
+            <div className={styles.link}>
+              <div
+                className={
+                  link == "/"
+                    ? pathname == link
+                      ? styles.active
+                      : ""
+                    : pathname.includes(link)
+                    ? styles.active
+                    : ""
+                }
+              >
+                {name}
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+    );
 }

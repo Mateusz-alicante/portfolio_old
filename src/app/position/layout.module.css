@@ -1,7 +1,12 @@
 .outerContainer {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
 }
+
+.navContainer {
+    margin-right: 2em;
+}
+
 
 .linkContainer {
     margin: 1em 0;
@@ -9,11 +14,9 @@
     grid-template-columns: 1fr 4fr;
     font-size: medium;
     text-decoration: none;
+
 }
 
-.pageLink{
-    padding-bottom: 1em;
-}
 
 .linkIcon {
     display: flex;
@@ -29,4 +32,9 @@
 .inactive {
     text-decoration: none;
     color: black;
+}
+
+.pageLink {
+    text-align: right;
+    padding-left: 1em;
 }

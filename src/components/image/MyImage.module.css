@@ -1,0 +1,31 @@
+.image {
+    border-radius: 1em;
+}
+
+.imageContainerRight {
+    float: right;
+    margin-left: 2em;
+}
+
+.imageContainerLeft {
+    float: left;
+    margin-right: 2em;
+
+}
+
+.imageInnerContainer{
+    
+    width: -webkit-min-content;
+     width: -moz-min-content;
+    width: min-content;
+}
+
+.imageCaptionContainer {
+    width: 100%;
+}
+.imageCaption {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: small;
+}
