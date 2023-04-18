@@ -9,7 +9,7 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 export default function Intro() {
   return (
       <div className={styles.container}>
-        <h1>Engineering Portfolio and Handbook</h1>
+        <h1>Engineering Portfolio</h1>
         <h2>Mateusz Kazimierczak</h2>
         <div className={styles.content}>
         

@@ -1,0 +1,35 @@
+.expContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.indivContainer {
+    height: 10em;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.indivContainer:hover { transform: scale(1.1); }
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.title {
+    position: absolute;
+    bottom: -0.5em;
+    left: 0.5em;
+    background-color: white;
+    border-radius: 1em;
+    padding: 0.4em;
+    width: 70%;
+}
+
+.link {
+    color: black;
+}
