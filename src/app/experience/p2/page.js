@@ -76,14 +76,15 @@ export default function Who() {
 
 <p>Accordingly, we decided to migrate some of the most important features of this design to a new prototype called “Nurdle-No-More”. This prototype was simpler, matched better with our requirements model, and most importantly, did the best job at improving the lived experience of the volunteers from the organization.
 </p>
+
+<p>Designing all of the prototypes involved in this project required us to use a wide variety of tools, and develop many new skills. One of the most valuable ones was creating photorealistic rendering of our design in order to help us to represent the final concept with more fidelity. Using force analysis on the CAD model ws also very helpful in order to determine the most optimal materials that should be used in the design. Another skill that this project helped me develop and I would like to highlight is prototyping higher fidelity prototypes with the aim of using them in testing. Most of the prototypes I had built before were scoped to serve as tools for representation. However, in this project it was clear that performing rigorous testing would be invaluable in order to provide rigorous justification for our designs. Building prototypes with this aim in mind required us to develop a new mindset towards how to design prototypes. Some of the features that could be described as “eye candy” had to be left out, while most of our attention was devoted to structural and functional components. This was a useful skill to develop, as in industry it is crucial to have the ability to plan and design different kinds of prototypes for a plethora of purposes. 
+</p>
 <MyImage
           image={test}
           size={300}
           caption="One of the prototypes during testing."
           pos="right"
         />
-<p>Designing all of the prototypes involved in this project required us to use a wide variety of tools, and develop many new skills. One of the most valuable ones was creating photorealistic rendering of our design in order to help us to represent the final concept with more fidelity. Using force analysis on the CAD model ws also very helpful in order to determine the most optimal materials that should be used in the design. Another skill that this project helped me develop and I would like to highlight is prototyping higher fidelity prototypes with the aim of using them in testing. Most of the prototypes I had built before were scoped to serve as tools for representation. However, in this project it was clear that performing rigorous testing would be invaluable in order to provide rigorous justification for our designs. Building prototypes with this aim in mind required us to develop a new mindset towards how to design prototypes. Some of the features that could be described as “eye candy” had to be left out, while most of our attention was devoted to structural and functional components. This was a useful skill to develop, as in industry it is crucial to have the ability to plan and design different kinds of prototypes for a plethora of purposes. 
-</p>
 <MyImage
           image={forces}
           size={300}

@@ -11,8 +11,8 @@ import bio from './bio/main.jpg'
 import utra from './utra/main.jpg'
 import p2 from './p2/main.jpg'
 
-const pages = {"Tetrahedron reflection visualization tool": [tetra, "/experience/tetra"], "CIV 102 brdige building project": [civ, "/experience/civ"],
-"Praxis I desing project": [p1, "/experience/p1"], "U of T biomedical competition:": [bio, "/experience/bio"],
+const pages = {"Tetrahedron reflection visualization tool": [tetra, "/experience/tetra"], "CIV 102 bridge building project": [civ, "/experience/civ"],
+"Praxis I design project": [p1, "/experience/p1"], "U of T biomedical competition:": [bio, "/experience/bio"],
 "UTRA hackathon": [utra, "/experience/utra"], "Praxis II design project": [p2, "/experience/p2"]}
 
 export default function Home() {

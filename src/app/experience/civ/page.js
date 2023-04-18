@@ -12,7 +12,7 @@ export default function Civ() {
     return (
       <div className={styles.container}>
         <Back text="Back to experiences" to="/experience" />
-        <Header image={main} title="CIV 102 brdige building project:" />
+        <Header image={main} title="CIV 102 bridge building project:" />
         <h2>Background:</h2>
         <p>The first semester CIV 102 course involves building a cardboard bridge. The bridges are then compared to each other based on which one can hold the largest amount of weight.
 </p>

@@ -12,7 +12,7 @@ export default function Who() {
     return (
       <div className={styles.container}>
         <Back text="Back to experiences" to="/experience" />
-        <Header image={main} title="Praxis I desing project:" />
+        <Header image={main} title="Praxis I design project:" />
         <h2>Background:</h2>
        <p>Our design work in Praxis I was framed at solving a “splartz”, an inconvenience in daily life. Because a number of team members are active, young students, a splartz we often encountered was the strap on a gym duffle bag slipping and lengthening while the user is walking with it. Transporting gym equipment with the duffle bag is irritating and bothersome, as the slide buckle does not provide enough force to hold the strap while the user is wearing the bag. We set out to find a solution to this problem, and improve the lived experience of duffle bag users.				
 </p>
