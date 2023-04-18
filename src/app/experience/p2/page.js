@@ -17,7 +17,7 @@ export default function Who() {
     return (
       <div className={styles.container}>
         <Back text="Back to experiences" to="/experience" />
-        <Header image={main} title="Praxis II desing project:" />
+        <Header image={main} title="Praxis II design project:" />
         <h2>Background:</h2>
      <p>While the Praxis I design project consisted in developing a concept to solve a “splartz”, or minor inconvenience in people's daily life, the design project in Praxis II consisted in improving the lived experience of a community in the GTA (Greater Toronto Area). 
 </p>
